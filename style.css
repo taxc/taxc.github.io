@@ -1,6 +1,6 @@
 html,
 body {
-    font-family: 'Titilium Web', sans-serif;
+    font-family: 'Garamond', sans-serif;
     text-align: center;
 }
 
@@ -14,10 +14,7 @@ body {
     background: #e0ebe8;
     min-height: 55vh;
     padding-top: 45vh;
-    /*   line-height: 100vh; */
-    /*   width:100%;
-    height:96vh;
-    border:solid; */
+    font-family: Garamond;
 }
 
 .intro p {
@@ -56,6 +53,7 @@ nav ul li a:hover {
   margin-top: 50px;
   color: #008080;
   font-weight: normal;
+  font-family: Garamond;
 }
 
 .project {
@@ -67,17 +65,17 @@ nav ul li a:hover {
   height: 220px;
   width: 280px;
   margin: 40px 100px;
-  /*   background: url("") repeat; */
 }
 
 .project-pic {
   width: 100%;
-  height: 180px;
+  height: 175px;
   border: 2px solid lightblue;
 }
 
 .project-title {
   font-weight: bold;
+  font-family: Garamond;
 }
 
 .show-all {
@@ -90,12 +88,11 @@ nav ul li a:hover {
   color: #008080;
   font-weight: bold;
   font-size: 1em;
-  border: 2px solid rgb(83, 71, 92);
+  border: 2px solid #90C695;
   border-radius: 4px;
   cursor: pointer;
   padding-top:10px;
 }
-
 
 .show-all:hover {
   background: #E4F1FE;
@@ -115,26 +112,14 @@ nav ul li a:hover {
 }
 
 .contact {
-  /*   height:800px; */
-  /*   min-height:800px; */
   background: rgb(83, 71, 92);
   padding-bottom: 160px;
 }
 
 .header {
-  padding: 160px 0 110px;
+  padding: 100px 0 110px;
 }
-.contact-btn a {
-  cursor: pointer;
-  margin-right: 30px;
-  padding: 8px 18px;
-  border: 1px solid #204156;
-	position: relative;
-}
-.contact-btn a:active {
-  position: relative;
-	top: 2px; 
-}
+
 .contact-details {
   display: inline-block;
   font-weight: bold;
@@ -147,7 +132,6 @@ nav ul li a:hover {
   line-height: 100px;
   background: #e0ebe8;
   color: #008080;
-  text-decoration: none;
 }
 
 .contact-details:hover {
